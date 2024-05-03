@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contact Us</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+		
+		<!-- STYLE CSS -->
+        <link href="stylec.css" type="text/css" rel="stylesheet"/>
+		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+		<script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js"></script>
+		<script src="https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js"></script>
+		<script src="signout.js"></script>
+	</head>
+
+	<body>
+        <header>
+            <h1>Legal Awareness Digital Assistant</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+			<a href="index.html" id="signOutBtn">Sign Out</a>
+        </nav>
+		<div class="wrapper">
+			<div class="inner">
+				<form action="">
+					<h3>Contact Us</h3>
+					<p>Contact Us if you need personal assistance</p>
+					<label class="form-group">
+						<textarea name="" id="" class="form-control" required></textarea>
+						<span>Your Name</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group">
+                        <textarea name="" id="" class="form-control" required></textarea>
+						<span for="">Your Mail</span>
+						<span class="border"></span>
+					</label>
+					<label class="form-group" >
+						<textarea name="" id="" class="form-control" required></textarea>
+						<span for="">Your Message</span>
+						<span class="border"></span>
+					</label>
+					<button>Submit 
+						<i class="zmdi zmdi-arrow-right"></i>
+					</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
